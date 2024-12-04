@@ -6,11 +6,11 @@ let myDate = new Date()
 
 // let myCreatedDate = new Date(2023, 4 , 10)
 // let myCreatedDate = new Date(2023, 4 , 10, 5, 3)
-let myCreatedDate = new Date("04-12-2024");
+// let myCreatedDate = new Date("04-12-2024");
 console.log(myCreatedDate.toLocaleString());
 console.log(newDate.getDate());
 
 newDate.toLocaleString('default', {
     weekday: "long"
-    
+
 })
